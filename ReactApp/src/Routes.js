@@ -24,6 +24,7 @@ import Example from "./components/staging/Example/Example";
 import Example1 from "./components/staging/Example/Example1";
 import Example2 from "./components/staging/Example/Example2";
 import Example3 from "./components/staging/Example/Example3";
+import ExampleOpcua from "./components/customComponents/ExampleOpcua";
 //system
 import Login from "./React-Automation-Studio/components/SystemComponents/Login";
 import Probe from "./React-Automation-Studio/components/SettingsPages/Probe";
@@ -147,6 +148,7 @@ const Routes = (props) => {
         <ProtectedRoute path="/Example1" component={Example1} />
         <ProtectedRoute path="/Example2" component={Example2} />
         <ProtectedRoute path="/Example3" component={Example3} />
+        <ProtectedRoute path="/Example4OPCUA" component={ExampleOpcua} />
         {/*staging end*/}
       </Switch>
     </BrowserRouter>

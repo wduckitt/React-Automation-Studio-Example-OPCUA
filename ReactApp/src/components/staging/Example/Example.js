@@ -99,6 +99,19 @@ const Example = (props) => {
                 Example3{" "}
               </Button>
             </Grid>
+            <Grid item xs={12}>
+              <Button
+                fullWidth
+                className={classes.button}
+                component={Link}
+                to="/Example4OPCUA"
+                color="primary"
+                variant="contained"
+              >
+                {" "}
+                Example4 OPCUA{" "}
+              </Button>
+            </Grid>
           </Grid>
         </Grid>
 
