@@ -75,7 +75,7 @@ const MobileDemo1 = (props) => {
 
   return (
     <TraditionalLayout
-      title="EPICS OPCUA-Python OPCUA Example"
+      title="EPICS Beckhoff OPCUA Example"
       denseAppBar
       alignTitle="center"
     >
@@ -107,7 +107,7 @@ const MobileDemo1 = (props) => {
 
                         <TextOutput
                           pv="$(device):tick"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           usePvUnits
                           alarmSensitive
@@ -118,7 +118,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={3} >
                         <StyledIconIndicator
                               pv="$(device):Bo"
-                              macros={{ "$(device)": "OPCUA-Python" }}
+                              macros={{ "$(device)": "Beckhoff" }}
                               // onColor={props.theme.palette.ok.main}
                               // offColor="default"
                               usePvLabel
@@ -129,7 +129,7 @@ const MobileDemo1 = (props) => {
                   
                         <ToggleButton
                           pv="$(device):Bo"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           custom_selection_strings={["OFF", "ON"]}
                         />
                       </Grid>
@@ -137,7 +137,7 @@ const MobileDemo1 = (props) => {
                   
                         <StyledIconIndicator
                           pv="$(device):Bi"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           // onColor={props.theme.palette.ok.main}
                           // offColor="default"
                           usePvLabel
@@ -147,7 +147,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoInt64"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -158,7 +158,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoInt64"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           // usePvLabel
                         />
@@ -166,7 +166,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiInt64"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -178,7 +178,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoUInt64"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -189,7 +189,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoUInt64"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           usePvPrecision
                           // usePvLabel
@@ -199,7 +199,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiUInt64"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -212,7 +212,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoInt32"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -223,7 +223,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoInt32"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           usePvPrecision
                           // usePvLabel
@@ -232,7 +232,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiInt32"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -244,7 +244,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoUInt32"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -255,7 +255,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoUInt32"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           usePvPrecision
                           // usePvLabel
@@ -265,7 +265,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiUInt32"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -277,7 +277,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoInt16"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -288,7 +288,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoInt16"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           usePvPrecision
                           // usePvLabel
@@ -297,7 +297,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiInt16"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -308,7 +308,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoUInt16"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -319,7 +319,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoUInt16"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           usePvPrecision
                           // usePvLabel
@@ -328,7 +328,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiUInt16"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -339,7 +339,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoFloat"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -350,7 +350,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoFloat"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           usePvPrecision
                           // usePvLabel
@@ -359,7 +359,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiFloat"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -370,7 +370,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoDouble"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -381,7 +381,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoDouble"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           usePvPrecision
                           // usePvLabel
@@ -390,7 +390,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiDouble"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -401,7 +401,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoByte"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -412,7 +412,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoByte"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           usePvPrecision
                           // usePvLabel
@@ -421,7 +421,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiByte"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -432,7 +432,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):AoSByte"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -443,7 +443,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <Slider
                           pv="$(device):AoSByte"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvMinMax={true}
                           usePvPrecision
                           // usePvLabel
@@ -453,7 +453,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):AiSByte"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // usePvUnits
                           alarmSensitive
@@ -464,7 +464,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):test_date"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // // usePvUnits
                           // alarmSensitive
@@ -475,7 +475,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextOutput
                           pv="$(device):StringIn"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // // usePvUnits
                           // alarmSensitive
@@ -486,7 +486,7 @@ const MobileDemo1 = (props) => {
                       <Grid item xs={4}>
                         <TextInput
                           pv="$(device):StringOut"
-                          macros={{ "$(device)": "OPCUA-Python" }}
+                          macros={{ "$(device)": "Beckhoff" }}
                           usePvLabel
                           // // usePvUnits
                           // alarmSensitive

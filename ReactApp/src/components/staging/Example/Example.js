@@ -104,12 +104,25 @@ const Example = (props) => {
                 fullWidth
                 className={classes.button}
                 component={Link}
-                to="/Example4OPCUA"
+                to="/ExampleOPCUA"
                 color="primary"
                 variant="contained"
               >
                 {" "}
-                Example4 OPCUA{" "}
+                Example Python Server OPCUA{" "}
+              </Button>
+            </Grid>
+            <Grid item xs={12}>
+              <Button
+                fullWidth
+                className={classes.button}
+                component={Link}
+                to="/ExampleBeckhoffOPCUA"
+                color="primary"
+                variant="contained"
+              >
+                {" "}
+                Example Beckhoff PLC OPCUA{" "}
               </Button>
             </Grid>
           </Grid>
