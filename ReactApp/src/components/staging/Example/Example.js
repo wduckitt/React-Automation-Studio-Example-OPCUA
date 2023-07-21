@@ -36,7 +36,7 @@ const Example = (props) => {
 
   return (
     <TraditionalLayout
-      title="React Automation Studio Example Staging Area"
+      title="React Automation Studio OPCUA Examples"
       denseAppBar
       alignTitle="center"
     >
@@ -59,7 +59,7 @@ const Example = (props) => {
             spacing={3}
             alignItems="stretch"
           >
-            <Grid item xs={12}>
+            {/* <Grid item xs={12}>
               <Button
                 fullWidth
                 className={classes.button}
@@ -98,18 +98,31 @@ const Example = (props) => {
                 {" "}
                 Example3{" "}
               </Button>
+            </Grid> */}
+            <Grid item xs={12}>
+              <Button
+                fullWidth
+                className={classes.button}
+                component={Link}
+                to="/ExampleOPCUA"
+                color="primary"
+                variant="contained"
+              >
+                {" "}
+                Example Python Server OPCUA{" "}
+              </Button>
             </Grid>
             <Grid item xs={12}>
               <Button
                 fullWidth
                 className={classes.button}
                 component={Link}
-                to="/Example4OPCUA"
+                to="/ExampleBeckhoffOPCUA"
                 color="primary"
                 variant="contained"
               >
                 {" "}
-                Example4 OPCUA{" "}
+                Example Beckhoff PLC OPCUA{" "}
               </Button>
             </Grid>
           </Grid>
