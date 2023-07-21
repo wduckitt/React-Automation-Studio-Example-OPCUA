@@ -61,6 +61,18 @@ const Main = (props) => {
             spacing={3}
             alignItems="stretch"
           >
+            <Grid item xs={12}>
+              <Button
+                className={classes.button}
+                component={Link}
+                to="/Example"
+                color="primary"
+                variant="contained"
+              >
+                {" "}
+                OPCUA Examples{" "}
+              </Button>
+            </Grid>
             {enableDemos && (
               <Grid item xs={12}>
                 <Button
@@ -71,23 +83,12 @@ const Main = (props) => {
                   variant="contained"
                 >
                   {" "}
-                  Demos Dashboard{" "}
+                  Other Demos Dashboard{" "}
                 </Button>
               </Grid>
             )}
 
-            <Grid item xs={12}>
-              <Button
-                className={classes.button}
-                component={Link}
-                to="/Staging"
-                color="primary"
-                variant="contained"
-              >
-                {" "}
-                Staging{" "}
-              </Button>
-            </Grid>
+            
             <Grid item xs={12}>
               <Button
                 fullWidth
