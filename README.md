@@ -44,7 +44,7 @@ Then first clone this repo:
 git clone --recurse-submodules https://github.com/wduckitt/React-Automation-Studio-Example-OPCUA.git
 ```
 
-Creat an empty or copy an exist .env in the root installation folder:
+Creat an empty or copy an existing .env in the root installation folder:
 ```bash
 touch .env
 ```
