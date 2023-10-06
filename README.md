@@ -41,7 +41,7 @@ https://docs.docker.com/compose/install/compose-plugin/#installing-compose-on-li
 
 Then first clone this repo:
 ```bash
-git clone --recurse-submodules https://github.com:wduckitt/React-Automation-Studio-Example-OPCUA.git
+git clone --recurse-submodules https://github.com/wduckitt/React-Automation-Studio-Example-OPCUA.git
 ```
 
 
