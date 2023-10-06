@@ -44,7 +44,7 @@ Then first clone this repo:
 git clone --recurse-submodules https://github.com:wduckitt/React-Automation-Studio-Example-OPCUA.git
 ```
 
-T
+
 # 2 Launching the Docker compose files
 The systems uses Docker to create isolated production and development environments. There are several docker-compose configuration files.
 
