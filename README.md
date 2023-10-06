@@ -43,6 +43,11 @@ Then first clone this repo:
 git clone --recurse-submodules https://github.com/wduckitt/React-Automation-Studio-Example-OPCUA.git
 ```
 
+Creat an empty or copy an existing .env in the root installation folder:
+```bash
+touch .env
+```
+
 
 To checkout version 4.0.2 run:
 ```bash
