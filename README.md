@@ -1,5 +1,4 @@
 
-
 # Introduction
 
 This repository pulls in the src from the  React Automation Studio repository https://github.com/React-Automation-Studio/React-Automation-Studio and acts a test project for  the OPC UA EPICS BRIDGE https://github.com/React-Automation-Studio/OPCUA-EPICS-BRIDGE .
@@ -45,6 +44,23 @@ git clone --recurse-submodules https://github.com/wduckitt/React-Automation-Stud
 ```
 
 
+To checkout version 4.0.2 run:
+```bash
+ git checkout tags/V4.0.2
+```
+
+
+
+To confirm the correct git submodule version :
+```bash
+git submodule status
+```
+Should contain `submodules/React-Automation-Studio (V4.0.2)` in the output for version 4.0.2 .
+
+If not and you previously checked out a different version run:
+```bash
+git pull --recurse-submodules
+```
 # 2 Launching the Docker compose files
 The systems uses Docker to create isolated production and development environments. There are several docker-compose configuration files.
 
