@@ -76,6 +76,12 @@ docker compose  up
 
 Will launch the compiled production version with out the demoIOC's and styleguide
 
+```bash
+
+docker compose -f docker-compose-prod-with-demoioc.yml up 
+
+```
+Will launch the production build with all the RAS demoIOCs included.
 
 
 ```bash
